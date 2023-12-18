@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "The Amazon e-commerce Node.js API project involves the implementation of a powerful backend using Node.js, serving as the core infrastructure for managing data, processing requests, and facilitating communication between different components in the e-commerce system. This Node.js API project plays a pivotal role in enabling smooth interactions and transactions, ensuring a reliable and scalable foundation for Amazon's e-commerce platform.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "author": "Md. Salauddin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
